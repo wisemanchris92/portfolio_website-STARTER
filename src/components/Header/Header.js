@@ -4,7 +4,8 @@ import React from 'react';
 
 // icons coming from react icons package
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+// import { DiCssdeck } from 'react-icons/di';
+import { GoChevronRight } from 'react-icons/go'
 
 // styled components
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -14,7 +15,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a  style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px' }}>
-          <DiCssdeck size="3rem" /><span>Portfolio</span>
+          <GoChevronRight size="3rem" /><span>Portfolio</span>
         </a>
       </Link>
     </Div1>

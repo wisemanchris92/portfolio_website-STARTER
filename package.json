@@ -1,6 +1,8 @@
 {
   "name": "portfolio_nextjs",
+  "homepage": "http://react-portfolio.cwiseman.com/",
   "version": "0.1.0",
+  "description": "react portfolio app built from youtube tutorial",
   "private": true,
   "scripts": {
     "dev": "next dev",
